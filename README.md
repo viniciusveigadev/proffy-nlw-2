@@ -6,14 +6,19 @@ Proffy - Online Education & Teaching Courses
 <img src="https://github.com/viniciusveigadev/proffy-nlw-2/blob/master/web/src/assets/images/landing.svg" width="300" heigth="300">
 </p>
 
-<p align="center">
-  <a href="LICENSE" >
-<img alt="License" src="https://img.shields.io/badge/license-MIT-%23F8952D">
-  </a>
+<p align="center"> 
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/viniciusveigadev/proffy-nlw-2?color=%233a86ff"> 
+  <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/viniciusveigadev/proffy-nlw-2?color=%233a86ff"> 
+  <a href="https://github.com/viniciusveigadev/proffy-nlw-2/commits/master"> 
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/viniciusveigadev/proffy-nlw-2?color=%233a86ff"> 
+  </a> 
+  <a href="LICENSE" > 
+    <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen?color=%233a86ff"> 
+  </a> 
 </p>
 
 <h3 align="center">  
-  <a href="#information_source">About</a> |
+  <a href="#information_source-about">About</a> |
   <a href="#rocket-technologies">Technologies</a> | 
   <a href="#link-contributing">Contributing</a> | 
   <a href="#license">License</a> 
