@@ -28,7 +28,10 @@ Proffy - Online Education & Teaching Courses
 
 ## :information_source: About
 
-Proffy - Online Education & Teaching Courses. This project was developed during the Next Level Week #02, given by Rocketseat. (not finished yet)
+Proffy - Online Education & Teaching Courses. This project was developed during the Next Level Week #02, given by Rocketseat.
+<h4 align="center"> 
+	🚧  Proffy 🚀 under development...  🚧
+</h4>
 
 ![mobilefirst](https://github.com/viniciusveigadev/proffy-nlw-2/blob/master/web/src/assets/images/mobilefirst.gif)
 
