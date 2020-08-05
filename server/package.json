@@ -5,7 +5,7 @@
   "license": "MIT",
 
   "scripts": {
-    "start": "tsnd src/server.ts"
+    "start": "tsnd --transpile-only src/server.ts"
   },
   "devDependencies": {
     "ts-node-dev": "^1.0.0-pre.56",
