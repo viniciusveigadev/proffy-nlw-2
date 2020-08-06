@@ -20,6 +20,7 @@ Proffy - Online Education & Teaching Courses
 <h3 align="center">  
   <a href="#information_source-about">About</a> |
   <a href="#rocket-technologies">Technologies</a> | 
+  <a href="#construction_worker-how-to-run">How to run</a> |
   <a href="#link-contributing">Contributing</a> | 
   <a href="#license">License</a> 
 </h3>
@@ -50,6 +51,58 @@ Proffy - Online Education & Teaching Courses. This project was developed during 
 - [Typescript](https://www.typescriptlang.org/)
 
 
+# :construction_worker: How to run
+
+### 💻 Run Web Project
+
+```bash
+# Go to web folder
+$ cd proffy-nlw-2/web
+
+# Install Dependencies
+$ yarn install
+
+# Run Aplication
+$ yarn start
+```
+Go to http://localhost:3000/ to see the result.
+
+```bash
+# Clone Repository
+$ git clone https://github.com/viniciusveigadev/proffy-nlw-2
+```
+### 📦 Run API
+
+```bash
+# Go to server folder
+$ cd proffy-nlw-2/server
+
+# Install Dependencies
+$ yarn install
+
+# Run Application
+$ yarn start
+```
+Access API at http://localhost:3333/
+
+### 📱 Run Mobile Project
+To run the mobile project you need a cellphone with the [expo app](https://play.google.com/store/apps/details?id=host.exp.exponent) instaled or a emulator Android/iOS.
+<br />
+After, fork this repository and clone to your machine. Inside of the project's folder run the following commands:
+
+```bash
+# Go to mobile folder
+$ cd proffy-nlw-2/mobile
+
+# Install Dependencies
+$ yarn install
+
+# Run Application
+$ yarn start
+```
+After read the QRCode with the app of [expo](https://play.google.com/store/apps/details?id=host.exp.exponent) or run on emulator.
+
+
 ## :link: Contributing
 
 1. Fork it!
@@ -60,3 +113,6 @@ Proffy - Online Education & Teaching Courses. This project was developed during 
 
 ## License
 This project is under the MIT license [LICENSE](LICENSE)
+
+
+Give a ⭐️ if this project helped you!
