@@ -53,6 +53,11 @@ Proffy - Online Education & Teaching Courses. This project was developed during 
 
 # :construction_worker: How to run
 
+```bash
+# Clone Repository
+$ git clone https://github.com/viniciusveigadev/proffy-nlw-2
+```
+
 ### 💻 Run Web Project
 
 ```bash
@@ -62,15 +67,11 @@ $ cd proffy-nlw-2/web
 # Install Dependencies
 $ yarn install
 
-# Run Aplication
+# Run Application
 $ yarn start
 ```
 Go to http://localhost:3000/ to see the result.
 
-```bash
-# Clone Repository
-$ git clone https://github.com/viniciusveigadev/proffy-nlw-2
-```
 ### 📦 Run API
 
 ```bash
