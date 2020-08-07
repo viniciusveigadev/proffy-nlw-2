@@ -15,7 +15,7 @@ export interface Teacher {
     whatsapp: string;
 }
 
-export interface TeacherItemProps {
+interface TeacherItemProps {
     teacher: Teacher;
 }
 
@@ -23,7 +23,7 @@ const TeacherItem: React.FC<TeacherItemProps> = ({ teacher }) => {
     function createNewConnection() {
         api.post('connections', {
             user_id: teacher.id,
-        })
+        });
     }
     return (
         <article className="teacher-item">
@@ -42,7 +42,7 @@ const TeacherItem: React.FC<TeacherItemProps> = ({ teacher }) => {
                     Preço/hora
                     <strong>R$: {teacher.cost}</strong>
                 </p>
-                <a target="_black" onClick={createNewConnection} href={`https://wa.me/${teacher.whatsapp}`}>
+                <a target="_blank" onClick={createNewConnection} href={`https://wa.me/${teacher.whatsapp}`} type="button">
                     <img src={whatsappIcon} alt="Whatsapp" />
                 Entrar em contato
                 </a>

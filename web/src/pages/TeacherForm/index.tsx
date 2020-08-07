@@ -31,7 +31,7 @@ function TeacherForm() {
 
     function addNewScheduleItem() {
         setScheduleItems([
-            ...scheduleItems, { week_day: 0, from: '', to: '' }
+            ...scheduleItems, { week_day: 1, from: '', to: '' }
         ])
     }
 
@@ -136,7 +136,7 @@ function TeacherForm() {
 
                     <fieldset>
                         <legend>Horários disponíveis
-                    <button type="button" onClick={addNewScheduleItem}>
+                    <button type='button' onClick={addNewScheduleItem}>
                                 + Novo horário
                     </button>
                         </legend>

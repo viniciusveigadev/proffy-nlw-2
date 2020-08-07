@@ -9,7 +9,7 @@ import api from '../../services/api';
 import './styles.css';
 
 function TeacherList() {
-    const [teachers, setTeachers] = useState([]);
+    const [teachers, setTeachers] = useState<Teacher[]>([]);
     const [subject, setSubject] = useState('');
     const [week_day, setWeekDay] = useState('');
     const [time, setTime] = useState('');
@@ -69,10 +69,10 @@ function TeacherList() {
                         name="time"
                         label="Hora"
                         value={time}
-                        onChange={e => { setTime(e.target.value) }}
+                        onChange={(e) => { setTime(e.target.value) }}
                     />
 
-                    <button type="submit">
+                    <button type='submit'>
                         Buscar
                     </button>
                 </form>

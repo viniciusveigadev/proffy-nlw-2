@@ -88,7 +88,9 @@ export default class ClassesController {
             await trx.commit();
 
             return response.status(201).send();
-        } catch (err) {
+        } catch (error) {
+            console.log(error);
+            
             await trx.rollback();
 
             return response.status(400).json({
